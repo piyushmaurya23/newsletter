@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+#cover {
+    background: #222 url('../img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-caption {
+    width: 100%;
+}
+#about {
+    padding: 6rem;
+}
+h2 {
+    color: #0099cc;
+}
+h1 {
+    text-align: center;
+}
+#team {
+    padding: 2rem 8rem;
+}
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+.img-circle {
+    max-width: 75%;
+    padding-bottom: 2rem;
+
+}
+h3 {
+    text-align: center;
+    padding: .8rem;
+
+h4 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+#footer-main {
+    padding: 6rem 0;
+}
