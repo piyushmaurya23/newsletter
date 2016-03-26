@@ -1,2 +1,2 @@
-web: gunicorn config.wsgi:application
+web: gunicorn newsletter.wsgi:application
 
