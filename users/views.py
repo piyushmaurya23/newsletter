@@ -22,8 +22,9 @@ def home(request):
 def index(request):
     context = {}
     if request.user.is_authenticated():
+        username = request.user.get_username()
         context = {
-            "user": "Hello User"
+            "user": username
         }
 
     return render(request, "index.html", context)

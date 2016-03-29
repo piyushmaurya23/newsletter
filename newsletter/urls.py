@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^user/', include("users.urls", namespace='user')),
     url(r'^accounts/', include('allauth.urls')),
     url(r'^$', index)
+    #url(r'^$', navbar)
 ]
 
 if settings.DEBUG:
